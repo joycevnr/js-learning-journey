@@ -22,3 +22,16 @@ console.log(typeof variavelExemplo); // Saída: number
 .....*/       //comentário de mais de uma linha
 
 //  comentário de uma linha
+
+// Um algoritmo é uma sequência de passos de maneira precisa, sem ambiguidade, com o objetivo de resolver um problema.
+
+
+// Nomenclatura de variáveis:
+// Snake case: usa underline (_) para separar palavras.
+let snake_case;
+
+// Camel case: primeira letra minúscula e a primeira letra de cada nova palavra subsequente em maiúscula.
+let camelCase;
+
+// Pascal case: todas as palavras começam com a primeira letra em maiúscula.
+let PascalCase;
