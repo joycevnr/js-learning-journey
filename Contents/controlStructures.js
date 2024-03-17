@@ -48,7 +48,7 @@ do {
     x++;
 } while (x < 5);
 
-// switch statement
+// switch 
 console.log("\nExemplo utilizando o switch statement:");
 const day = "Segunda";
 
