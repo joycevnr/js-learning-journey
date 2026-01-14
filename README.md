@@ -1,51 +1,60 @@
-# Minha jornada de aprendizado em JavaScript
+<div align="center">
 
-Bem-vindo ao meu repositório de jornada de aprendizado em JavaScript! Aqui, estou compartilhando exemplos e projetos enquanto exploro o JavaScript.
+# Fundamentos de JavaScript
 
-## Sobre JavaScript
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Estudo-yellow?style=for-the-badge)
 
-JavaScript é uma linguagem de programação amplamente utilizada para desenvolvimento web, permitindo a criação de páginas dinâmicas e interativas. Ela é conhecida por sua versatilidade e é executada no navegador do usuário, possibilitando a interação com elementos da página e manipulação de dados.
+</div>
 
-## Conteúdo do repositório
+## Sobre o Repositório
 
-O repositório está organizado em diferentes arquivos JavaScript, cada um abordando um tópico específico relacionado à linguagem JavaScript. Abaixo está uma breve descrição de alguns arquivos:
+Este repositório documenta minha jornada de aprendizado na linguagem **JavaScript**.
 
-### 1. informaçõesBasicas.js
+O foco aqui é consolidar a base da linguagem, explorando desde a sintaxe essencial até recursos modernos (ES6+). Os exemplos cobrem manipulação de dados, lógica de programação e o comportamento dinâmico que torna o JavaScript a principal linguagem da web.
 
-Este arquivo apresenta conceitos básicos sobre JavaScript, como declaração de variáveis, nomenclatura, operadores e estruturas de controle.
+---
 
-### 2. operators.js
+## Organização dos Estudos
 
-Neste arquivo, são explorados os diferentes tipos de operadores em JavaScript, como aritméticos, de atribuição, relacionais e lógicos.
+Os arquivos estão nomeados em inglês para seguir boas práticas, mas organizados por temas abaixo:
 
-### 3. controlStructures.js
+### 1. Sintaxe e Lógica
+Conceitos iniciais para estruturação de código.
+* **`basicInformation.js`:** Declaração de variáveis (var, let, const) e tipagem dinâmica.
+* **`operators.js`:** Operadores aritméticos, lógicos, relacionais e de atribuição.
+* **`controlStructures.js`:** Controle de fluxo com condicionais (`if/else`, ternário) e loops (`for`, `while`).
 
-Aqui são abordadas as estruturas de controle em JavaScript, incluindo condicionais (if-else), loops (for, while) e o operador condicional ternário.
+### 2. Manipulação de Dados
+Tratamento de diferentes tipos de dados primitivos e compostos.
+* **`stringTreatment.js`:** Manipulação de textos (Regex, `split`, `replace`, `toUpperCase`).
+* **`numberTreatment.js`:** Operações matemáticas, conversão de tipos e uso da biblioteca `Math`.
+* **`array.js`:** Métodos fundamentais de listas (adicionar, remover, ordenar e filtrar elementos).
 
-### 4. numberTreatment.js
+### 3. Funções e Escopo
+Entendendo o coração do JavaScript.
+* **`function.js`:** Escopo (local vs global), funções anônimas e callbacks.
+* **`arrowFunction.js`:** Sintaxe moderna e concisa introduzida no ES6.
 
-Este arquivo trata de operações com números em JavaScript, incluindo conversão de tipos, cálculos matemáticos, funções da biblioteca Math e outras operações úteis.
-
-### 5. stringTreatment.js
-
-Apresenta diversas operações de tratamento de strings em JavaScript, como obtenção do tamanho, conversão de maiúsculas/minúsculas, quebra de texto, substituição de partes, extração de caracteres e partes, entre outros.
-
-### 6. array.js
-
-Aborda o tratamento de arrays em JavaScript, incluindo operações como filtragem, remoção e adição de elementos, obtenção de posição, inclusão e ordenação.
-
-### 7. arrowFunctions.js
-
-Explora o uso de funções de seta (arrow functions) em JavaScript, uma forma concisa de escrever funções.
-
-### 8. function.js
-
-Este arquivo aborda o escopo de variáveis, local e global, em JavaScript, bem como o conceito de funções de callback.
+---
 
 ## Como executar
 
-Para executar os exemplos contidos neste repositório, basta clonar o repositório para o seu computador e executar os arquivos JavaScript em um ambiente compatível com JavaScript, como um navegador web ou um ambiente Node.js.
+Você pode rodar os códigos diretamente no navegador (Console do DevTools) ou, preferencialmente, utilizando o **Node.js** no terminal.
 
-## Contribuição
+1.  Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
+2.  Clone este repositório.
+3.  No terminal, execute o arquivo desejado:
 
-Estou compartilhando um pouco do meu aprendizado aqui, sinta-se à vontade para explorar e vamos aprender juntos.
+```bash
+node Contents/array.js
+```
+
+## 🇺🇸 English Version
+
+JavaScript Learning Journey
+Welcome! This repository documents my studies in JavaScript, covering everything from basic syntax to ES6+ features.
+
+#### How to run: 
+You can execute any file using Node.js in your terminal: node filename.js
